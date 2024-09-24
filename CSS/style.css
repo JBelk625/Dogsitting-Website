@@ -140,29 +140,54 @@ img {
 }
 /* About Me */
 
+.selfie .container-small {
+    align-self: center;
+}
 
-.hero .selfie-image {
-    width: 50%;
+.selfie-image {
+    width: 100%;
     color: #131516;
     background-color: var(--primary-color);
-    padding: 30px;
+    padding: 10px;
     border-radius: 0.5rem;
-
+    margin-top: 60px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
-.hero .selfie-info {
-    width: 50%;
-    color: #131516;
-    background-color: var(--primary-color);
-    padding: 30px;
-    border-radius: 0.5rem;
-    
+.selfie-info {
+    width: 100%;
+    color: #131516;    background-color: var(--primary-color);    padding: 30px;    border-radius: 0.5rem;    text-align: center;
+    margin-bottom: 60px;
     
 }
 
 
+.tina-image {
+    width: 100%;
+    color: #131516;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
+.tina-info {
+    width: 100%;
+    color: #131516;    background-color: var(--primary-color);    padding: 30px;    border-radius: 0.5rem;    text-align: center;
+    margin-bottom: 60px;
+    
+}
 
 
 
@@ -183,6 +208,7 @@ img {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 
 /* Buttons */
@@ -205,13 +231,17 @@ img {
  }
   
 
+  /* Text */
+  .text-xl {
+    font-size: 1.9rem;
+  }
 
+  .text-lg {
+    font-size: 1.5rem;
+    
+  }
 
-
-
-
-
-
-
-
-
+  .text-md {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+  }

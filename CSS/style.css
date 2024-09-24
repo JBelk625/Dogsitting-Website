@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --primary-color: #80b5ba;
+    --light-color: #c1dcdf;
+    --dark-color: #293839;
+
+}
+
+body {
+    font-family: 'Caveat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--light-color);
+
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Nav Bar */
+.navbar {
+    background-color: #293839;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Content */
+.hero .container {
+
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    
+}
+
+.hero .hero-content {
+    width: 70%;
+    margin-left: 30px;
+    color: #131516;
+    background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: 0.5rem;
+
+
+}
+
+.hero .hero-text {
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    
+}
+
+.slider {
+    
+    width: 70%;
+    display: flex;
+    aspect-ratio: 10 / 9;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 0.5rem;
+    overflow-x: hidden;
+    float: right;
+
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 65%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+/* About Me */
+
+
+.hero .selfie-image {
+    width: 50%;
+    color: #131516;
+    background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: 0.5rem;
+
+    
+}
+
+.hero .selfie-info {
+    width: 50%;
+    color: #131516;
+    background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: 0.5rem;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-small {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    background: var(--dark-color);
+    color: var(--light-color);
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+  
+.btn:hover {
+    opacity: 0.8;
+ }
+  
+
+
+
+
+
+
+
+
+
+
+

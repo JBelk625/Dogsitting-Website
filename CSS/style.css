@@ -192,7 +192,52 @@ img {
 
 
 
+/* Contact */
 
+fieldset {
+    margin: 2em 0;
+    padding: 1em 4em;
+    border: solid 1px (--dark-color);
+    border-radius: 6px;
+    min-width: 200px;
+    background-color: var(--primary-color);
+
+}
+
+legend {
+    font-size: 1.75em;
+    padding: 0 .25em;
+    color: 999;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    
+}
+
+label:first-of-type {
+    margin-top: 0;
+}
+
+input {
+    padding: 0.5em;
+    border: solid 1px #999;
+}
+
+.checks {
+    margin-bottom: 1em;
+}
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+input[type="radio"] {
+    margin-left: 1.5em;
+}
 
 
 
@@ -225,7 +270,21 @@ img {
     text-align: center;
     transition: 0.5s;
 }
-  
+
+.btn-lt {
+    display: inline-block;
+    padding: 13px 20px;
+    background: var(--light-color);
+    color: var(--dark-color);
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+
 .btn:hover {
     opacity: 0.8;
  }

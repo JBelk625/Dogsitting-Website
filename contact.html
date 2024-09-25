@@ -44,11 +44,105 @@
             </div>
         </div>
     </nav>
-        <!-- Hero -->
+        <!-- Form -->
 
     <style>
         body {
             background-image: url('../images/10158592.jpg');
         }
-        </style>
+    </style>
+
+<section class="form">
+    <div class="container-small">
+
+        <form action="contact.php" method="POST">
+
+            <fieldset>
+                <legend>Contact Me</legend>
+
+                <div>    
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname" placeholder="Tony" minlength="3" maxlength="8" required enterkeyhint="next" required> <br>
+                </div>
+
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Stark" minlength="3" maxlength="12" required enterkeyhint="next" required> <br>
+                </div>
+
+                <div>
+                    <label for="phone">Phone #:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required enterkeyhint="next" required><br>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="HappyTales@gmail.com" required enterkeyhint="next" required><br>
+                </div>
+
+                <div>
+                    <label for="streetaddress">Street Address:</label>
+                    <input type="text" name="streetaddress" id="streetaddress" placeholder="123 Avengers Twr" maxlength="20"required enterkeyhint="next" required><br>
+                </div>
+
+                <div>
+                    
+                </div>
+
+                <div>
+                    <label for="qtypets">Number of Pets:</label>
+                    <input type="number" id="qtypets" name="qtypets" minlength="1" maxlength="10" value="1"><br>
+                </div>
+
+                <div>    
+                    <label for="startdate">Departure:</label>
+                    <input type="date" name="startdate" id="startdate" required>
+
+                    <label for="enddate">Return:</label>
+                    <input type="date" name="enddate" id="enddate" required><br>
+                </div>
+
+                <div>
+                    <label for="desc">Tell me about your pets:</label>
+                    <textarea id="desc" name="desc" cols="70" rows="10" placeholder="What kind of pets do you have? Do you have any additonal needs?" maxlength="500" required></textarea><br>
+                </div>
+
+                <div class="checks">
+                    <label for="contactpref">Preferred Contact:</label>
+
+                    <input type="radio" name="contactpref" id="contactpref" value="Email">
+                    <label for="contactpref">Email</label>
+
+                    <input type="radio" name="contactpref" id="contactpref" value="Text">
+                    <label for="contactpref">Text</label>
+                    <br>
+
+                    <label for="signup">I understand and agree to the nonrefundable $20 meet and greet fee(see pricing for details):</label>
+
+                    <input type="radio" name="signup" id="signup" value="I agree" required>
+                    <label for="signup">I agree</label>
+                    <br>
+                
+                    <label for="deposit">I understand and agree to the appointment scheduling deposit policy (located on the pricing page):</label>
+                    
+                    <input type="radio" name="deposit" id="deposit" value="I agree" required>
+                    <label for="deposit">I agree</label>
+                    <br>
+                </div>
+
+                <div>
+                    <input type="reset" value="Reset" class="btn">
+                    <input type="submit" value="Submit" class="btn-lt">
+                </div>
+            </fieldset>
+
+        </form>
+
+    </div>
+</section>
+
+
+</body>
+
+</html>
 

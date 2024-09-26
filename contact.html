@@ -55,7 +55,7 @@
 <section class="form">
     <div class="container-small">
 
-        <form action="contact.php" method="POST">
+        <form action="php/send-email.php" method="post" enctype="multipart/form-data">
 
             <fieldset>
                 <legend>Contact Me</legend>
@@ -103,8 +103,8 @@
                 </div>
 
                 <div>
-                    <label for="desc">Tell me about your pets:</label>
-                    <textarea id="desc" name="desc" cols="60" rows="10" placeholder="What kind of pets do you have? Do you have any additonal needs?" maxlength="500" required></textarea><br>
+                    <label for="message">Tell me about your pets:</label>
+                    <textarea id="message" name="message" cols="60" rows="10" placeholder="What kind of pets do you have? Do you have any additonal needs? No special characters allowed for safety." maxlength="500" required></textarea><br>
                 </div>
 
                 <div class="checks">

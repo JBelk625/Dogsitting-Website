@@ -84,6 +84,14 @@ img {
 
 }
 
+.hero .hero-content h1 {
+    font-size: 2rem;
+}
+
+.hero .hero-content p {
+    font-size: 1.2rem;
+}
+
 .hero .hero-text {
     width: 100%;
     margin-bottom: 20px;
@@ -203,23 +211,37 @@ img {
     width: 100%;
     color: #131516;    background-color: var(--primary-color);    padding: 30px;    border-radius: 0.5rem;    text-align: center;
     margin: 60px;
+    margin-bottom: 0;
 }
 
-.pricing h1 {
-    display: inline;
-    float: left;
-    padding-right: 20px;
-}
+.pricing .base {
 
-.pricing h2 {
-    display: inline;
-    float: right;
-}
-
-.pricing .onetimeDesc {
-    display: block;
+    text-align: center;
+    width: 100%;
+    color: #131516;    background-color: var(--primary-color);    padding: 30px;    border-radius: 0.5rem;    text-align: center;
+    margin: 0 60px;
     
 }
+
+.pricing .base h3, h4, h5, h6 {
+    font-size: 2rem;
+}
+
+
+
+.pricing .special {
+
+    text-align: center;
+    width: 100%;
+    color: #131516;    background-color: var(--primary-color);    padding: 30px;    border-radius: 0.5rem;    text-align: center;
+    margin: 0 60px;
+    
+}
+
+.pricing .special h7, h8 {
+    font-size: 2rem;
+}
+
 
 /* Contact */
 
@@ -283,6 +305,16 @@ input[type="radio"] {
     margin: 0 auto;
     padding: 0 15px;
     
+}
+
+.two-columns {
+    display:flex;
+}
+
+
+.two-columns > * {
+    width:50%;
+    padding:1rem;
 }
 
 /* Buttons */

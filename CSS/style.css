@@ -189,8 +189,37 @@ img {
     
 }
 
+/* Pricing */
 
+.pricing .container {
+    padding: 30px;
+    display: flex;
+   
+}
 
+.pricing .onetime {
+
+    text-align: center;
+    width: 100%;
+    color: #131516;    background-color: var(--primary-color);    padding: 30px;    border-radius: 0.5rem;    text-align: center;
+    margin: 60px;
+}
+
+.pricing h1 {
+    display: inline;
+    float: left;
+    padding-right: 20px;
+}
+
+.pricing h2 {
+    display: inline;
+    float: right;
+}
+
+.pricing .onetimeDesc {
+    display: block;
+    
+}
 
 /* Contact */
 

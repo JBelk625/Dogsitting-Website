@@ -242,6 +242,14 @@ img {
     font-size: 2rem;
 }
 
+.pricing .deposit {
+
+    text-align: center;
+    width: 100%;
+    color: #131516;    background-color: var(--primary-color);    padding: 30px;    border-radius: 0.5rem;    text-align: center;
+    margin: 0 60px;
+    
+}
 
 /* Contact */
 
